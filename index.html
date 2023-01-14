@@ -1,11 +1,125 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <Title>Photo Feeder</Title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photo Feed</title>
+        <meta name="description" content="Página web de fotos">
+    
+        <!-- Prefetch -->
+        <link rel="prefetch" href="nosotros.html" as="document">
+    
+        <!-- Preload -->
+        <link rel="preload" href="css/normalize.css" as="style">
+        <link rel="stylesheet" href="css/normalize.css">
+    
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- javascript -->
+        <script src="./js/modernizr.js"></script>
     </head>
     <body>
-        
-        <p>Hola mundo</p>
+        <header class="header">
+            <!-- Encabezado de la página -->
+            <div class="header__text">
+                <h1 class="no-margin">Breathe Code Photo Feed</h2>
+            </div>
+        </header>
+        <nav>
+        <!-- Menú de navegación -->
+        </nav>
+        <main class="feeder">
+        <!-- Contenido principal de la página -->
+            <article class="entrada">
+                <div class="entrada__titulo">
+                    <h4 class="no-margin">Lorem ipsamet consectetur</h4>
+                    <p class="no-margin date">12/14</p>
+                </div>
 
-    </body>
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img\20220426_160407.jpg" alt="imagen"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit consequatur perferendis officia, 
+                        vitae fuga animi temporibus itaque atque reiciendis ea excepturi! Molestias aperiam fugiat deleniti laudantium <strong>#numquam?</strong></p>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__titulo">
+                    <h4 class="no-margin">Lorem ipsamet consectetur</h4>
+                    <p class="no-margin date">12/14</p>
+                </div>
+
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img\20220523_094700.jpg" alt="imagen"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit consequatur perferendis officia, 
+                        vitae fuga animi temporibus itaque atque reiciendis ea excepturi! Molestias aperiam fugiat deleniti laudantium <strong>#numquam?</strong></p>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__titulo">
+                    <h4 class="no-margin">Lorem ipsamet consectetur</h4>
+                    <p class="no-margin date">12/14</p>
+                </div>
+
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img\20220603_204249.jpg" alt="imagen"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit consequatur perferendis officia, 
+                        vitae fuga animi temporibus itaque atque reiciendis ea excepturi! Molestias aperiam fugiat deleniti laudantium <strong>#numquam?</strong></p>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__titulo">
+                    <h4 class="no-margin">Lorem ipsamet consectetur</h4>
+                    <p class="no-margin date">12/14</p>
+                </div>
+
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img\20221122_183945.jpg" alt="imagen"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit consequatur perferendis officia, 
+                        vitae fuga animi temporibus itaque atque reiciendis ea excepturi! Molestias aperiam fugiat deleniti laudantium <strong>#numquam?</strong></p>
+                </div>
+            </article>
+            <article class="entrada">
+                <div class="entrada__titulo">
+                    <h4 class="no-margin">Lorem ipsamet consectetur</h4>
+                    <p class="no-margin date">12/14</p>
+                </div>
+
+                <div class="entrada__imagen">
+                    <picture>
+                        <img loading="lazy" src="img\20221223_173547.jpg" alt="imagen"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, rerum, reprehenderit consequatur perferendis officia, 
+                        vitae fuga animi temporibus itaque atque reiciendis ea excepturi! Molestias aperiam fugiat deleniti laudantium <strong>#numquam?</strong></p>
+                </div>
+            </article>
+        </main>
+  
+</body>
 </html>
